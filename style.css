@@ -30,7 +30,7 @@ section{
 
 .half img{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .button{
@@ -40,6 +40,8 @@ section{
     padding: 15px 30px;
     border-radius: 15px;
     font-weight: 700;
+    display: inline;
+    height: 30px;
 }
 
 .top{
@@ -47,4 +49,16 @@ section{
 
     background-repeat: no-repeat;
     padding: 30px;
+}
+section{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.dream{
+    background-image:url(./image/jason-leung-Xaanw0s0pMk-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    padding: 30px;
+    text-align: center;
 }
