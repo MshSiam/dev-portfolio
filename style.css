@@ -42,6 +42,19 @@ p{
     height: 30px;
 }
 
+button{
+    display: inline-block;
+    height: 45px;
+    width: auto;
+    padding: 20px 40px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-image: linear-gradient(rgb(65, 52, 182), tomato);
+    color: whitesmoke;
+    border:none;
+    border-radius: 15px;
+}
+
 .top{
     background-image:url(./image/jason-leung-Xaanw0s0pMk-unsplash.jpg);
 
@@ -93,8 +106,19 @@ p{
 }
 
 #border1{
+    border-left: 7px solid;
     border-image: linear-gradient(rgb(17, 0, 255), rgb(255, 0, 200));
+    border-image-slice: 1;
+
 }
+
+#border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(30, 255, 0), rgb(0, 238, 255));
+    border-image-slice: 1;
+
+}
+
 
 
 .text{
