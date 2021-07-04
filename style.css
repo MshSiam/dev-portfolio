@@ -1,5 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
+    color: white;
 }
 h1{
     font-size: 3rem;
@@ -7,6 +13,10 @@ h1{
 
 span{
     color: rgb(255, 44, 160);
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 section{
@@ -19,17 +29,22 @@ section{
 }
 
 .half img{
-    width: 80%;
-    margin-top: 40px;
+    width: 100%;
+    margin-top: 50px;
 }
 
 .button{
-    /* height: 30px;
-    width: auto; */
     text-decoration: none;
     background-image: linear-gradient(rgb(65, 52, 182), tomato);
     color: whitesmoke;
     padding: 15px 30px;
     border-radius: 15px;
     font-weight: 700;
+}
+
+.top{
+    background-image:url(./image/jason-leung-Xaanw0s0pMk-unsplash.jpg);
+
+    background-repeat: no-repeat;
+    padding: 30px;
 }
