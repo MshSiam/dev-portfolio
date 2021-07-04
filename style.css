@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -64,8 +65,42 @@ p{
 
 .ex{
     color: black;
+    background-color: rgb(224, 219, 230);
+    margin: 0 auto;
+
     
 }
 .ex h1 {
     margin-bottom: 30px;
+
+}
+
+.color{
+    color: burlywood;
+}
+
+
+.bshad1{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray ;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+.bshad2{
+    width: 40%;
+    margin-left: 25px;
+    margin-left: 25px;
+    padding: 20px;
+    box-shadow: 10px 10px 30px gray ;
+    border-radius: 15px;
+    text-align: justify;
+}
+
+
+.text{
+    text-align: center;
 }
