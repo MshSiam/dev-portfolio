@@ -19,9 +19,6 @@ p{
     margin-bottom: 30px;
 }
 
-section{
-    display: flex;
-}
 
 .half{
     width: 50%;
@@ -50,10 +47,12 @@ section{
     background-repeat: no-repeat;
     padding: 30px;
 }
-section{
+.top , .dream , .flex{
     display: flex;
     margin-bottom: 2%;
 }
+
+
 
 .dream{
     background-image:url(./image/jason-leung-Xaanw0s0pMk-unsplash.jpg);
@@ -61,4 +60,12 @@ section{
     background-repeat: no-repeat;
     padding: 30px;
     text-align: center;
+}
+
+.ex{
+    color: black;
+    
+}
+.ex h1 {
+    margin-bottom: 30px;
 }
